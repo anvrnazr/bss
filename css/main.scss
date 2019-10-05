@@ -257,7 +257,7 @@ height: 100%;;
 
     .left
     {
-// background: rgb(110, 110, 110);
+background:#0087a3;
 flex-grow: 1;
 flex-basis: 0;
 align-items: center;
@@ -274,6 +274,7 @@ display: flex;
     {
         flex-grow: 1;
         flex-basis: 0;
+        background: #fff;
 
         .founder 
         {

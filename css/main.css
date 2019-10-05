@@ -167,6 +167,7 @@ a.readmore {
   align-items: stretch;
   height: 100%; }
   .tiles-content .left {
+    background: #0087a3;
     flex-grow: 1;
     flex-basis: 0;
     align-items: center;
@@ -176,7 +177,8 @@ a.readmore {
       padding: 30px  60px; }
   .tiles-content .right {
     flex-grow: 1;
-    flex-basis: 0; }
+    flex-basis: 0;
+    background: #fff; }
     .tiles-content .right .founder {
       height: 50%;
       display: flex;

@@ -26,6 +26,10 @@
     {
         width: 100%;
     }
+    .tiles-content
+    {
+        flex-direction: column;
+    }
  }
 
 @media (max-width: 768px) {
