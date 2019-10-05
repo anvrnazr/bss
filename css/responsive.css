@@ -54,17 +54,17 @@
     {
         width: 100%;
         display: flex;
-        margin-top: 80px;
+        margin-top: 140px;
         padding-bottom: 80px;
 
-justify-content: right;
+justify-content: center;
     }
     .intro .intro-bg
     {
         width: calc(100vw + 20px);
         left: -20px;
         top: 0;
-        height: 100%;
+        height: calc(100% - 40px);
     }
     .intro .intro-slider .inner {
 
