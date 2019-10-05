@@ -28,6 +28,7 @@ html{
     /* background: rgb(187, 180, 180); */
     height: 100%;
     width: 100%;
+    overflow: hidden;
     
 }
 .container
@@ -96,11 +97,12 @@ nav ul li a.active{
     position: absolute;
     right: 20px;;
     top: 0;
+    background: rgb(197, 145, 145);
 
 
     div
     {
-        height: 5px;
+        height: 4px;
         background: #0087a3;
         position: absolute;
         right: 0;
