@@ -89,6 +89,35 @@ nav ul li a.active{
     border-top: 5px solid #0087a3;
 
 }
+.menubtn
+{
+    width: 80px;
+    height: 80px;;
+    position: absolute;
+    right: 20px;;
+    top: 0;
+
+
+    div
+    {
+        height: 5px;
+        background: #0087a3;
+        position: absolute;
+        right: 0;
+    }
+    .l1
+    {
+        width: 50px;
+        top: 30px;
+
+    }
+    .l2
+    {
+        width: 35px;
+        top: 50px;
+    
+    }
+}
 a.readmore
 {
     background: #0087a3;

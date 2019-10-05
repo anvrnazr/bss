@@ -68,6 +68,24 @@ nav ul li a {
 nav ul li a.active {
   border-top: 5px solid #0087a3; }
 
+.menubtn {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 20px;
+  top: 0; }
+  .menubtn div {
+    height: 5px;
+    background: #0087a3;
+    position: absolute;
+    right: 0; }
+  .menubtn .l1 {
+    width: 50px;
+    top: 30px; }
+  .menubtn .l2 {
+    width: 35px;
+    top: 50px; }
+
 a.readmore {
   background: #0087a3;
   padding: 20px;
