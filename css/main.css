@@ -39,7 +39,8 @@ header {
   width: 100%;
   top: 0;
   background: #fff;
-  z-index: 1000; }
+  z-index: 1000;
+  box-shadow: 0px 0px 30px rgba(94, 92, 92, 0.233); }
 
 nav {
   display: flex;
@@ -74,18 +75,17 @@ nav ul li a.active {
   height: 80px;
   position: absolute;
   right: 20px;
-  top: 0;
-  background: #c59191; }
+  top: 0; }
   .menubtn div {
     height: 4px;
     background: #0087a3;
     position: absolute;
     right: 0; }
   .menubtn .l1 {
-    width: 50px;
-    top: 30px; }
+    width: 40px;
+    top: 40px; }
   .menubtn .l2 {
-    width: 35px;
+    width: 40px;
     top: 50px; }
 
 a.readmore {
