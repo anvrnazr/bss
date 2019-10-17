@@ -1,12 +1,6 @@
 
+var body = document.querySelector('body');
 
-document.getElementById('myButton').onclick = function() {
-
-    var className = ' ' + myButton.className + ' ';
-
-    if ( ~className.indexOf(' active ') ) {
-        this.className = className.replace(' active ', ' ');
-    } else {
-        this.className += ' active';
-    }              
+document.querySelector('.menubtn').onclick = function() {
+    body.classList.toggle("menu-active");            
 }

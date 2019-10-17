@@ -71,6 +71,10 @@ nav{
     justify-content: space-between;
     align-items: center;
     /* background: rgb(252, 180, 180); */
+    .logo
+    {
+        z-index: 103;;
+    }
 }
 nav ul 
 {
@@ -102,18 +106,21 @@ nav ul li a.active{
 .menubtn
 {
     width: 80px;
-    height: 80px;;
+    height: 100px;;
     position: absolute;
     right: 20px;;
     top: 0;
 display: none;
+cursor: pointer;
 
     div
     {
-        height: 4px;
+        height: 3px;
         background: #0087a3;
         position: absolute;
         right: 0;
+        transition: 300ms;
+
     }
     .l1
     {

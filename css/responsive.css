@@ -31,17 +31,28 @@
     nav ul
     {
         position: absolute;
-        width: 40%;
+        width: 250px;
 
-        right: 0;
+        right:-270px;
         top:0;
-        background: #a4d9d6;
+        background: #ccf7f3;
+        background: #fff;
         height:100vh;
         flex-direction: column;
         z-index: 101;
         margin: 0;
         padding: 0;
-        padding-top: 80px;
+        padding-top: 100px;
+        transition: 300ms;
+    box-shadow: 0px 0px 30px rgba(94, 92, 92, 0.233);
+
+    }
+    .menu-active  nav ul
+
+    {
+        right:0px;
+        transition: 300ms;
+
     }
     nav ul li 
     {
@@ -71,7 +82,24 @@
 {
     display: block;
     z-index: 102;
+
 }
+.menu-active  .menubtn .l1
+{
+    transform: rotate(45deg);
+    transition: 300ms;
+    top: 43px;
+
+}
+.menu-active  .menubtn .l2
+{
+    transform: rotate(135deg);
+    transition: 300ms;
+    top: 43px;
+
+}
+
+
     .numbers .number-content
     {
         flex-wrap: wrap;
@@ -173,7 +201,7 @@ padding: 0px;
  }
  .events .events-content {
      flex-wrap: wrap;
-
+     justify-content: center;
 
  }
  .events .event-body
@@ -192,6 +220,19 @@ padding: 0px;
  {
      padding-left: 30px;
  }
+
+ .achievements .ach-content
+ {
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .articles .articles-content
+ {
+    flex-wrap: wrap;
+    justify-content: center;
+
+ }
+
 }
 
 @media (max-width: 768px) {
