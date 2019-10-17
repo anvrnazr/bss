@@ -28,7 +28,50 @@
         padding-left: 20px;
         padding-right: 20px;;
     }
+    nav ul
+    {
+        position: absolute;
+        width: 40%;
 
+        right: 0;
+        top:0;
+        background: #a4d9d6;
+        height:100vh;
+        flex-direction: column;
+        z-index: 101;
+        margin: 0;
+        padding: 0;
+        padding-top: 80px;
+    }
+    nav ul li 
+    {
+        padding: 0;
+    }
+
+    nav ul li a
+    {
+        border: 0;
+        text-align: right;
+        padding-right: 20px;;
+        height: auto;
+        line-height: 40px;
+
+    }
+    nav ul li a.active
+    {
+        border: 0;
+
+        border-left: 5px solid #0087a3;
+        background: rgba(0, 0, 0, 0.103);
+
+    }
+
+
+.menubtn
+{
+    display: block;
+    z-index: 102;
+}
     .numbers .number-content
     {
         flex-wrap: wrap;
@@ -114,6 +157,41 @@ padding: 0px;
      width:100%;
  }
 
+ .charity .charity-content
+ {
+     flex-direction: column;
+
+ }
+ .charity .charity-body
+ {
+     order: 1;
+ }
+ .charity .charity-slider
+ {
+    order: 2;
+
+ }
+ .events .events-content {
+     flex-wrap: wrap;
+
+
+ }
+ .events .event-body
+ {
+     order: 1;
+     padding-left: 0;;
+     padding-right: 50px;
+     padding-bottom: 50px;;
+ }
+ .events .event
+ {
+     order:2;
+     margin-bottom: 30px;;
+ }
+ .events .event:first-child
+ {
+     padding-left: 30px;
+ }
 }
 
 @media (max-width: 768px) {
@@ -128,7 +206,7 @@ padding: 0px;
     
     nav ul
     {
-display: none;
+/* display: none; */
     }
     .container
     {

@@ -197,17 +197,19 @@
                 </div>
             </section>
             <section class="charity">
-                <div class="bg"></div>
                 <div class="container">
                     <div class="charity-content">
                         <div class="charity-slider">
-                                <img src="img/about.png" alt="">
+                                <div class="bg"></div>
+
+                                <img src="img/charity.png" alt="">
                         </div>
                         <div class="charity-body">
                                 <h2>Charity</h2>
                                 <p>
-                                        B.S.S Gurukulam Higher Secondary School is run with the principles of Brahmananda Swami Sivayogi the Founder of “ Ananda Matham “ - the religion of bliss which advocates the importance of pure mind. Being inspired by this doctrine the ardent disciple Swamy Nirmalananda Yogi – Founded this school in the year 1972 to instill the great values in the minds of the people along with the Quality Education to provide better communal Harmony. Let us introduce ourselves as the proudest members of BSS Group of institutions, a very reputed high.......
+                                        B.S.S Gurukulam Higher Secondary School is run with the principles of Brahmananda Swami Sivayogi the Founder of “ Ananda Matham “ - the religion of bliss which advocates the importance of pure mind. Being inspired by this doctrine the ardent disciple Swamy Nirmalananda Yogi – Founded this school in the year 1972 to instill the great values in the minds of the....
                                 </p>
+                                <a href="" class="readmore">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -448,6 +450,20 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      }
     });
   </script>
 

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap");
 * {
   box-sizing: border-box; }
 
@@ -10,7 +10,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 html {
   height: 100%; }
@@ -38,7 +38,7 @@ header {
   width: 100%;
   max-width: 2000px;
   top: 0;
-  background: #fff;
+  background: white;
   z-index: 1000;
   box-shadow: 0px 0px 30px rgba(94, 92, 92, 0.233); }
 
@@ -75,7 +75,8 @@ nav ul li a.active {
   height: 80px;
   position: absolute;
   right: 20px;
-  top: 0; }
+  top: 0;
+  display: none; }
   .menubtn div {
     height: 4px;
     background: #0087a3;
@@ -212,15 +213,14 @@ a.readmore {
         height: 100%; }
       .tiles-content .right .princi p {
         background: url(../img/qoute.svg) no-repeat;
-        background-size: 70px; }
+        background-size: 70px;
+        padding-left: 30px;
+        padding-top: 20px; }
   .tiles-content .tile-body {
     padding: 50px;
     padding-right: 0px;
     font-weight: 300;
     font-size: 15px; }
-    .tiles-content .tile-body p {
-      padding-left: 20px;
-      padding-top: 20px; }
 
 .about {
   padding: 80px 0px;
@@ -239,18 +239,27 @@ a.readmore {
 
 .charity {
   padding: 80px 0px;
-  height: auto; }
+  height: auto;
+  overflow-x: hidden; }
+  .charity .charity-slider {
+    position: relative; }
   .charity .bg {
     background: #fdb35d;
     position: absolute;
-    width: 33.3333%;
-    left: 0;
-    top: 0;
-    height: 100%; }
+    width: 100vh;
+    right: 50%;
+    top: -80px;
+    height: calc(100% + 160px);
+    z-index: -1; }
   .charity .charity-content {
-    display: flex; }
+    display: flex;
+    align-items: center; }
   .charity .charity-body {
-    padding: 50px; }
+    padding-right: 0px;
+    padding-left: 70px;
+    font-weight: 300;
+    line-height: 1.6;
+    font-size: 15px; }
 
 .events .events-content {
   display: flex; }
