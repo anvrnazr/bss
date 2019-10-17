@@ -26,9 +26,12 @@ html{
 .wrapper
 {
     /* background: rgb(187, 180, 180); */
-    height: 100%;
+
     width: 100%;
-    overflow-x: hidden;
+    max-width: 2000px;
+    margin: auto;
+    box-shadow: 0px 0px 30px rgba(94, 92, 92, 0.233);
+
     
 }
 .container
@@ -36,8 +39,8 @@ html{
     max-width:1100px;
     margin: auto;
     display: block;
-    border-left: 1px solid rgba(0, 0, 0, 0.281);
-    border-right: 1px solid rgba(0, 0, 0, 0.281);
+    // border-left: 1px solid rgba(0, 0, 0, 0.281);
+    // border-right: 1px solid rgba(0, 0, 0, 0.281);
     height: 100%;
     position: relative;
     
@@ -52,10 +55,15 @@ header
 {
     position: fixed;
     width: 100%;
+    max-width: 2000px;
     top:0;
     background: #fff;
     z-index: 1000;
     box-shadow: 0px 0px 30px rgba(94, 92, 92, 0.233);
+}
+.header-wrapper
+{
+
 }
 nav{
     display: flex;
@@ -239,7 +247,7 @@ a.readmore
     padding: 0;
     .tiles-bg
     {
-        background: #0087a3;
+        background: #dfe8f8;
         position: absolute;
         height: 100%;;
         top: 0;
@@ -257,7 +265,7 @@ height: 100%;;
 
     .left
     {
-background:#0087a3;
+background:#dfe8f8;
 flex-grow: 1;
 flex-basis: 0;
 align-items: center;
@@ -266,7 +274,35 @@ display: flex;
         {
             color: #fff;
         padding: 30px  60px;
+        font-weight: 300;
+        font-size: 26px;
+            .mission-head
+        {
+        display: flex;
+        h1 
+        {
+            color: #515151;
+            padding-left: 10px;
+            font-size: 36px;
 
+        }
+        }
+        }
+        p
+        {
+            padding-left: 100px;
+            color: #515151;
+            font-weight: 300;
+            background :url(../img/qoute.svg) no-repeat;
+            background-position: 30px 0;
+            margin-top: 0;
+            padding-top: 30px;;
+
+            span 
+            {
+        font-weight: 600;
+                color: #0087a3;
+            }
         }
     
     }
@@ -296,12 +332,27 @@ display: flex;
             {
                 height: 100%;
             }
+            p
+            {
+                background :url(../img/qoute.svg) no-repeat;
+                background-size: 70px;
+            ;
+            
+            }
         }
     }
     .tile-body
     {
         padding: 50px;
         padding-right: 0px;;
+        font-weight: 300;
+        font-size: 15px;
+
+        p
+        {
+            padding-left: 20px;
+            padding-top: 20px;
+        }
     }
 }
 .about
