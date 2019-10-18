@@ -34,7 +34,7 @@
         width: 250px;
 
         right:-270px;
-        top:0;
+        top:100px;
         background: #ccf7f3;
         background: #fff;
         height:100vh;
@@ -42,9 +42,10 @@
         z-index: 101;
         margin: 0;
         padding: 0;
-        padding-top: 100px;
+        padding-top: 40px;
         transition: 300ms;
-    box-shadow: 0px 0px 30px rgba(94, 92, 92, 0.233);
+    box-shadow: 0px 30px 30px rgba(94, 92, 92, 0.233);
+    border-top: 1px solid #eee;
 
     }
     .menu-active  nav ul
@@ -62,10 +63,11 @@
     nav ul li a
     {
         border: 0;
-        text-align: right;
-        padding-right: 20px;;
+        /* text-align: right; */
+        padding-left: 20px;;
         height: auto;
         line-height: 40px;
+        border-left: 5px solid #fff;
 
     }
     nav ul li a.active
