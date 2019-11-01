@@ -19,9 +19,26 @@
 
     padding: 0px 10px;;   
  }
+ .footer-content
+ {
+     gap:40px;
+ }
+ .footer-content .quicklinks ul
+ {
+     margin-right: 40px;
+ }
  }
 
 @media (max-width: 992px) { 
+    .footer-content
+    {
+        flex-direction: column;
+    }
+    footer section .copyright
+    {
+        flex-direction: column;
+        text-align: center;
+    }
     .container
     {
         width: 100%;
@@ -32,8 +49,8 @@
     {
         position: absolute;
         width: 250px;
-
-        right:-270px;
+right: 0;
+        transform:translateX(110%);
         top:100px;
         background: #ccf7f3;
         background: #fff;
@@ -51,7 +68,7 @@
     .menu-active  nav ul
 
     {
-        right:0px;
+        transform:translateX(0%);
         transition: 300ms;
 
     }
@@ -186,7 +203,11 @@ padding: 0px;
  {
      width:100%;
  }
+.charity
+{
+    background: #fdb35d;
 
+}
  .charity .charity-content
  {
      flex-direction: column;
@@ -195,6 +216,7 @@ padding: 0px;
  .charity .charity-body
  {
      order: 1;
+     padding-left:0px;;
  }
  .charity .charity-slider
  {
@@ -220,7 +242,7 @@ padding: 0px;
  }
  .events .event:first-child
  {
-     padding-left: 30px;
+     /* padding-left: 30px; */
  }
 
  .achievements .ach-content
@@ -235,6 +257,26 @@ padding: 0px;
 
  }
 
+ .page-row
+ {
+     flex-direction: column;
+     flex-wrap: wrap;
+ }
+ .syscol
+ {
+     padding: 0px;
+     width: 100%;
+
+ }
+ .syscol.full
+ {
+     flex-direction: column;
+ }
+ .syscol img 
+ {
+     max-width: 100%;
+ }
+
 }
 
 @media (max-width: 768px) {
@@ -242,6 +284,18 @@ padding: 0px;
     {
 
 
+    }
+    .footer-content .ql-column, .footer-content .address
+    {
+        margin: 0;
+    }
+    .tab-section
+    {
+        flex-direction: column;
+    }
+    .tab-section .tab-nav ul
+    {
+        display: flex;
     }
 
  }
@@ -263,3 +317,16 @@ padding: 0px;
 
 
 
+
+
+
+.sf-menu .td-normal-menu ul li:nth-child(n+10) ul {
+
+    transform: translateY(-70%);
+
+}
+
+.sf-menu .td-normal-menu ul:nth-child(2) {
+
+    width: 25em !important;
+}
