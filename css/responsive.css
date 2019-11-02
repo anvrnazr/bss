@@ -223,6 +223,10 @@ padding: 0px;
     order: 2;
 
  }
+ .charity .charity-slider img 
+ {
+     max-width: 100%;
+ }
  .events .events-content {
      flex-wrap: wrap;
      justify-content: center;
@@ -276,7 +280,14 @@ padding: 0px;
  {
      max-width: 100%;
  }
-
+ .contact .contact-content
+ {
+     flex-direction: column;
+ }
+ .contact .contact-content .contact-body
+ {
+     padding-bottom: 50px;;
+ }
 }
 
 @media (max-width: 768px) {
