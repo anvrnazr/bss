@@ -83,6 +83,12 @@ header
 {
 
 }
+h2{
+    font-family: bold;
+    font-size: 38px;
+    color: #515151;
+}
+
 nav{
     display: flex;
     height: 100px;
@@ -99,6 +105,7 @@ nav ul
     display: flex;
 
 }
+
 nav ul li
 {
     display: block;
@@ -243,6 +250,18 @@ a.readmore
         top:0;
         height: 85%;
     }
+    .swiper-button-next, .swiper-button-prev
+    {
+
+        bottom: 10px;  
+        top: auto;
+        left:10px;
+
+    }
+    .swiper-button-next
+    {
+        left: 62px;
+    }
 }
 
 .numbers
@@ -262,6 +281,11 @@ a.readmore
             display: flex;
             align-items: flex-end;
             
+            p
+            {
+                margin: 0;
+                padding-left: 10px;;
+            }
 
 
         }
@@ -954,26 +978,30 @@ section
 {
     flex:1;
 }
+}
 .school 
 {
-    .column1
+     .column1
     {
-        font-size: 18px;
+        font-size: 17px;
         flex:4;
     }
     .column2
     {
-        font-size: 16px;
+        font-size: 15px;
         flex:3;
         line-height: 1.5;
 
     }
     .column3
     {
-        font-size: 16px;
+        font-size: 15px;
         flex:5;
         line-height: 1.5;
-
+        p
+        {
+            padding-right: 100px;
+        }
 
     }
     .column4
@@ -982,7 +1010,7 @@ section
     }
 }
 
-}
+
 
 .ab-image
 {
@@ -1392,4 +1420,121 @@ height: 340px;
 
 
 background-size: cover;
+}
+.facility 
+{
+    h2 
+    {
+        text-align: center;
+    }
+    p
+    {
+        color: #515151;
+    }
+    .swiper-slide
+    {
+        img
+        {
+            width: 100%;
+        }
+    }
+    .fac-slider
+    {
+        // position: relative;
+    }
+}
+.swiper-button-next, .swiper-button-prev
+{
+    width: 42px;
+    height: 42px;
+    background-size:cover;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev
+{
+    background-image: url(../img/right-ar.png);
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next
+{
+    background-image: url(../img/left-ar.png);
+
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled
+{
+    opacity: .8;
+}
+.admission
+{
+    h2
+    {
+        
+    margin-top: 0;;}
+    p
+    {
+        line-height: 1.6;
+    }
+    .appform
+    {
+        display: flex;
+        background: #ebf3f3;
+        padding: 20px 30px;
+        justify-content: space-between;
+        font-size: 18px;
+        color: #515151;
+        align-items: center;
+        margin-bottom: 30px;
+        button 
+        {
+            background: #199db8;
+            text-transform: uppercase;
+            color: #ffffff;
+            font-family: bold;
+            font-size: 15px;
+            padding: 7px 10px;
+            border: 0;
+            cursor: pointer;
+        }
+    }
+}
+
+.con-page
+{
+    .page-content
+    {
+        padding: 0;;
+    }
+
+    .formwrap
+    {
+        background: #ebf4f3;
+        margin-top: -100px;
+        padding: 70px;
+        box-shadow: 0px 0px 30px rgba(94, 92, 92, 0.233);
+margin-bottom: 200px;
+        h2
+        {
+            text-align: center;
+        }
+
+        input
+        {
+            border: 0;
+            padding: 15px 25px;
+            margin-bottom: 25px;
+            display: block;
+            width: 100%;
+        }
+        textarea 
+        {
+            border: 0;
+            padding: 10px;
+        }
+        .con-btn
+        {
+            background: #199db8;
+            border: 0;
+            padding: 15px 25px;
+            color: #ffffff;
+
+        }
+    }
 }
