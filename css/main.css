@@ -462,7 +462,18 @@ a.readmore {
 footer {
   background: #0087a3;
   padding: 80px 0px 0px;
-  color: #fff; }
+  color: #fff;
+  position: relative; }
+  footer:after {
+    position: absolute;
+    content: "";
+    height: 232px;
+    background: url(../img/footer-l.png), url(../img/footer-r.png);
+    background-position: left bottom, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+    width: 100%;
+    bottom: 100%; }
   footer section {
     background: #333333;
     padding: 10px;
