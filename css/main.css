@@ -360,15 +360,15 @@ a.readmore {
           border-radius: 50%;
           width: 20px;
           margin-right: 8px; }
-    .articles .articles-content .article .article-l {
+    .articles .articles-content .article .article-footer {
       display: flex;
       justify-content: space-between; }
-      .articles .articles-content .article .article-l a {
+      .articles .articles-content .article .article-footer a {
         color: #0087a3;
         font-size: 15px; }
-      .articles .articles-content .article .article-l .social {
+      .articles .articles-content .article .article-footer .social {
         display: flex; }
-        .articles .articles-content .article .article-l .social img {
+        .articles .articles-content .article .article-footer .social img {
           width: 17px;
           margin-left: 10px; }
 
