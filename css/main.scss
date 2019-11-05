@@ -592,7 +592,7 @@ background: #ebf4f3;
                 }
 
             }
-            .article-footer
+            .article-l
             {
                 display: flex;
                 justify-content: space-between;
@@ -762,8 +762,7 @@ bottom: 0;
     
 }
 
-footer 
-{
+footer{
     background:#0087a3 ;
     padding: 80px 0px 0px;
     color: #fff;
@@ -773,7 +772,7 @@ footer
         position: absolute;
         content: "";
         height: 232px;
-        background: url(../img/footer-l.png), url(../img/footer-r.png);
+        background: url(../img/l-l.png), url(../img/l-r.png);
         background-position: left bottom, right bottom;
         background-repeat: no-repeat, no-repeat;
         background-size: contain;
@@ -1547,7 +1546,142 @@ margin-bottom: 200px;
             border: 0;
             padding: 15px 25px;
             color: #ffffff;
-
+            display: block;
+            margin: auto;
         }
     }
+}
+
+.faculty
+{
+
+}
+
+.faculty-content 
+{
+    display: flex;
+}
+.staff-list 
+{
+    flex: 2;
+
+    ul 
+    {
+        padding: 0;
+
+        li 
+        {
+
+            margin-bottom: 20px;
+            display: block;
+            a 
+            {
+                border: 1px solid #d3d3d3;
+                text-align: center;
+                color: #515151;
+                display: block;
+                padding: 7px;
+                font-size: 15px;
+
+                &.active
+                {
+                    background: #199db8;
+                    border-color: #199db8;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+}
+.staff-content 
+{
+    flex: 8;
+
+    .staff-pane
+    {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 100px;
+        // justify-content: space-between;
+        gap: 50px;
+
+    }
+    .staff{
+        width: 350px;
+        min-height: 260px;
+        box-shadow: 0px 0px 30px rgba(94, 92, 92, 0.233);
+        border-radius: 5px;
+        overflow: hidden;
+
+        .staff-head
+        {
+            border-top: 10px solid #fdb35d;
+            display: flex;
+        }
+        .staff-img
+        {
+            width: 100px;
+            height: 120px;;
+            background-size: cover;
+            margin-top: -10px;
+        }
+        .staff-head
+        {
+            // border-bottom: 1px solid rgb(221, 221, 221);
+            h3
+            {
+                padding-left: 20px;;
+                height: 30px;
+            }
+        }
+    }
+    .stf-btn
+    {
+        background: #fff;
+        color: #000;
+        font-family: regular;
+        border: 0;
+        text-transform: uppercase;
+        float: right;
+        padding: 0;
+        margin-right: 30px;;
+        cursor: pointer;
+        font-size: 15px;
+
+    }
+    .stf-btn.active
+
+    {
+
+        font-family: bold;
+        border-bottom: 4px solid #199db8;
+
+    }
+
+    .stafftab
+    {   
+        margin-top: -30px;
+    }
+    .staffcon
+    {
+        padding: 35px 20px 20px;
+        font-size: 15px;
+        display: none;
+        p
+        {
+            // margin-bottom: 5px;;
+            margin-top: 5px;
+        }
+    }
+
+    .qua-btn.active ~ .quals
+    {
+        display: block
+    }
+    .exp-btn.active ~ .exp
+    {
+        display: block
+    }
+
 }
