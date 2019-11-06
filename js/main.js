@@ -22,3 +22,65 @@ function openExp(e) {
     e.currentTarget.nextSibling.classList.remove("active");
     
     }
+
+
+    function showSection(sectionIndex){
+        event.preventDefault();
+        var sections = document.querySelectorAll(".staff-pane");
+        var sectionButton =  document.querySelectorAll(".stafftabbtn");
+    
+        sectionButton.forEach(function(node){
+            node.classList.remove("active");
+        });
+        sections.forEach(function(node){
+            node.classList.remove("active");
+        });
+        sectionButton[sectionIndex].classList.add("active");
+        sections[sectionIndex].classList.add("active");
+    
+    }
+
+
+
+    var menu = document.querySelector('.tabul')
+    var ts = document.querySelector('.tab-section')
+
+    var menuPosition = menu.getBoundingClientRect().top;
+    var menuPositionB = menu.getBoundingClientRect().bottom;
+    var tsb = ts.getBoundingClientRect().bottom;
+console.log(tsb);
+
+    // console.log(menu.getBoundingClientRect().top);
+    
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset+160 >= menuPosition) {
+            menu.style.position = 'fixed';
+            menu.style.top = '160px';
+            menu.style.bottom = 'auto';
+
+        } else {
+            menu.style.position = 'static';
+            menu.style.top = '';
+        }
+        if (window.pageYOffset+242 >= tsb) {
+            menu.style.position = 'absolute';
+            menu.style.top = 'auto';
+            menu.style.bottom = '0px';
+
+
+
+            
+            
+        }
+        // if (window.pageYOffset+100 >= menuPositionB) {
+        //     menu.style.position = 'fixed';
+        //     menu.style.top = '100px';
+        // } else {
+        //     menu.style.position = 'static';
+        //     menu.style.top = '';
+        // }
+
+        
+
+        
+    });

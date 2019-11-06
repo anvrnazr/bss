@@ -56,6 +56,9 @@ h2 {
   font-size: 38px;
   color: #515151; }
 
+.fph2 {
+  margin-top: 0px; }
+
 nav {
   display: flex;
   height: 100px;
@@ -116,7 +119,10 @@ a.readmore {
   text-transform: uppercase;
   color: #fff;
   box-shadow: 0px 5px 30px #aaa;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-family: bold;
+  font-size: 14px;
+  line-height: 14px; }
 
 .intro {
   margin-top: 100px;
@@ -249,11 +255,18 @@ a.readmore {
     padding: 50px;
     padding-right: 0px;
     font-weight: 300;
-    font-size: 15px; }
+    font-size: 14px; }
+    .tiles-content .tile-body p {
+      line-height: 25px;
+      font-size: 14px;
+      color: #8e8e8e; }
 
 .about {
   padding: 80px 0px;
-  height: auto; }
+  height: auto;
+  background-image: url(../img/s2.jpg);
+  background-size: cover;
+  background-position: center top; }
   .about .about-content {
     display: flex;
     justify-content: flex-start; }
@@ -263,8 +276,12 @@ a.readmore {
   .about .about-body {
     flex: 3;
     flex-basis: 0;
-    padding: 50px;
+    padding: 0px 50px;
     padding-right: 0px; }
+    .about .about-body p {
+      line-height: 25px;
+      font-size: 14px;
+      color: #8e8e8e; }
 
 .charity {
   padding: 80px 0px;
@@ -281,14 +298,14 @@ a.readmore {
     height: calc(100% + 160px);
     z-index: -1; }
   .charity .charity-content {
-    display: flex;
-    align-items: center; }
+    display: flex; }
   .charity .charity-body {
     padding-right: 0px;
     padding-left: 70px;
     font-weight: 300;
-    line-height: 1.6;
-    font-size: 15px; }
+    line-height: 25px;
+    font-size: 14px;
+    color: #8e8e8e; }
 
 .events .events-content {
   display: flex;
@@ -312,7 +329,10 @@ a.readmore {
   .events .event img {
     width: 230px; }
 .events .event-body {
-  padding-left: 40px; }
+  padding-left: 40px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #8e8e8e; }
 
 .achievements {
   background: #ebf4f3; }
@@ -336,41 +356,42 @@ a.readmore {
   display: flex;
   justify-content: space-between;
   gap: 30px; }
-  .articles .articles-content .article {
-    box-shadow: 0px 0px 20px #ccc; }
-    .articles .articles-content .article .article-img {
-      width: 300px; }
-    .articles .articles-content .article .article-body {
-      width: 300px;
-      background: #fff;
-      padding: 15px; }
-      .articles .articles-content .article .article-body h4 {
-        margin: 0;
-        padding-bottom: 20px;
-        color: #565656; }
-    .articles .articles-content .article .details {
-      display: flex;
-      justify-content: space-between;
+
+.article {
+  box-shadow: 0px 0px 20px #ccc; }
+  .article .article-img {
+    width: 300px; }
+  .article .article-body {
+    width: 300px;
+    background: #fff;
+    padding: 15px; }
+    .article .article-body h4 {
+      margin: 0;
       padding-bottom: 20px;
-      color: #666; }
-      .articles .articles-content .article .details .author {
-        display: flex;
-        align-items: center; }
-        .articles .articles-content .article .details .author img {
-          border-radius: 50%;
-          width: 20px;
-          margin-right: 8px; }
-    .articles .articles-content .article .article-footer {
+      color: #565656; }
+  .article .details {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    color: #666; }
+    .article .details .author {
       display: flex;
-      justify-content: space-between; }
-      .articles .articles-content .article .article-footer a {
-        color: #0087a3;
-        font-size: 15px; }
-      .articles .articles-content .article .article-footer .social {
-        display: flex; }
-        .articles .articles-content .article .article-footer .social img {
-          width: 17px;
-          margin-left: 10px; }
+      align-items: center; }
+      .article .details .author img {
+        border-radius: 50%;
+        width: 20px;
+        margin-right: 8px; }
+  .article .article-footer {
+    display: flex;
+    justify-content: space-between; }
+    .article .article-footer a {
+      color: #0087a3;
+      font-size: 15px; }
+    .article .article-footer .social {
+      display: flex; }
+      .article .article-footer .social img {
+        width: 17px;
+        margin-left: 10px; }
 
 .alumni {
   background: #bfdddb;
@@ -464,16 +485,6 @@ footer {
   padding: 80px 0px 0px;
   color: #fff;
   position: relative; }
-  footer:after {
-    position: absolute;
-    content: "";
-    height: 232px;
-    background: url(../img/l-l.png), url(../img/l-r.png);
-    background-position: left bottom, right bottom;
-    background-repeat: no-repeat, no-repeat;
-    background-size: contain;
-    width: 100%;
-    bottom: 100%; }
   footer section {
     background: #333333;
     padding: 10px;
@@ -536,7 +547,7 @@ footer {
     padding-top: 130px; }
 
 .page-content {
-  padding: 60px 0px; }
+  padding: 60px 0px 120px; }
 
 .tab-section {
   display: flex; }
@@ -893,7 +904,9 @@ footer {
 .staff-list {
   flex: 2; }
   .staff-list ul {
-    padding: 0; }
+    padding: 0;
+    z-index: 100;
+    position: relative; }
     .staff-list ul li {
       margin-bottom: 20px;
       display: block; }
@@ -903,7 +916,8 @@ footer {
         color: #515151;
         display: block;
         padding: 7px;
-        font-size: 15px; }
+        font-size: 15px;
+        background: #ffffff; }
         .staff-list ul li a.active {
           background: #199db8;
           border-color: #199db8;
@@ -912,10 +926,12 @@ footer {
 .staff-content {
   flex: 8; }
   .staff-content .staff-pane {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     padding-left: 100px;
     gap: 50px; }
+  .staff-content .staff-pane.active {
+    display: flex; }
   .staff-content .staff {
     width: 350px;
     min-height: 260px;
@@ -950,14 +966,126 @@ footer {
   .staff-content .stafftab {
     margin-top: -30px; }
   .staff-content .staffcon {
-    padding: 35px 20px 20px;
+    padding: 40px 20px 20px;
     font-size: 15px;
     display: none; }
     .staff-content .staffcon p {
-      margin-top: 5px; }
+      margin-top: 5px;
+      margin-bottom: 5px; }
+    .staff-content .staffcon h3 {
+      margin: 10px 0px; }
   .staff-content .qua-btn.active ~ .quals {
     display: block; }
   .staff-content .exp-btn.active ~ .exp {
     display: block; }
+
+.charity-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px; }
+  .charity-row .charity-item {
+    width: 270px;
+    border: 1px solid #cccccc; }
+    .charity-row .charity-item img {
+      width: 100%; }
+    .charity-row .charity-item h3 {
+      padding: 0px 10px; }
+    .charity-row .charity-item div {
+      display: flex;
+      justify-content: center; }
+    .charity-row .charity-item a {
+      margin-top: 0; }
+
+.events1 {
+  flex: 4;
+  text-align: center; }
+  .events1 h1 {
+    text-align: center; }
+
+.evroll {
+  width: 630px;
+  display: block;
+  margin: auto; }
+
+.evrhead {
+  height: 120px;
+  background: #dae3e3; }
+
+.evrbody {
+  background: #ebf4f3;
+  min-height: 500px; }
+
+.evlc {
+  flex: 1; }
+
+.art-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px; }
+  .art-row .article .article-footer {
+    align-items: center; }
+  .art-row .article .article-footer > a {
+    order: 2;
+    background: #199db8;
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    margin-right: -15px;
+    margin-bottom: -15px; }
+  .art-row .article .article-footer .social {
+    flex: 1; }
+
+.ach-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px; }
+  .ach-row .ach-item {
+    border: 1px solid #cccccc;
+    width: 270px; }
+    .ach-row .ach-item img {
+      width: 100%; }
+    .ach-row .ach-item h3 {
+      margin: 0;
+      padding: 20px; }
+    .ach-row .ach-item .achf {
+      display: flex; }
+      .ach-row .ach-item .achf .date {
+        flex: 1; }
+      .ach-row .ach-item .achf .rm {
+        background: #199db8;
+        flex: 1;
+        text-align: center;
+        color: #fff;
+        height: 35px;
+        line-height: 35px; }
+
+.alumni-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px; }
+  .alumni-row .alumni-item {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 182px;
+    box-shadow: 0px 0px 20px #e0e0e0;
+    text-align: center; }
+    .alumni-row .alumni-item h3 {
+      margin: 10px 0px 5px;
+      font-size: 16px; }
+    .alumni-row .alumni-item p {
+      margin: 0;
+      margin-bottom: 10px;
+      font-size: 14px; }
+    .alumni-row .alumni-item .profile-button {
+      height: 32px;
+      width: 100%;
+      border: none;
+      background-color: #0087A3;
+      color: white;
+      font-size: 14px;
+      line-height: 32px;
+      display: block; }
 
 /*# sourceMappingURL=main.css.map */
