@@ -332,6 +332,8 @@ padding: 0px;
     .tab-section .tab-nav ul li .active
     {
         background: #0087a3;
+        background: #a33400;
+
         color: #fff;
         border-color: #0087a3;
     }
