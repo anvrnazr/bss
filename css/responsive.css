@@ -358,6 +358,10 @@ padding: 0px;
     {
         width: auto;
     }
+    .tabul .swiper-slide.dummyli
+    {
+        width: 100px;;
+    }
     .ab-image .ybg
     {
         display: none;
