@@ -41,6 +41,14 @@ function openExp(e) {
     }
 
 
+    
+  var swip = new Swiper('.tab-nav', {
+    slidesPerView: 'auto',
+        // spaceBetween: 30,
+    freeMode: true,
+
+  });
+
 
     var menu = document.querySelector('.tabul')
     var ts = document.querySelector('.tab-section')
@@ -80,4 +88,4 @@ console.log(tsb);
         
 
         
-    });
+    // });

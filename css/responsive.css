@@ -304,13 +304,19 @@ padding: 0px;
     {
         flex-direction: column;
     }
+    .tab-section .tab-nav
+    {
+        background: #f2f2f2;
+        
+    }
     .tab-section .tab-nav ul
     {
         display: flex;
+        background: #f2f2f2;
+
     }
     .tab-section .tab-nav ul    {
         width: 100%;
-        background: #f2f2f2;
     }
     .tab-section .tab-nav ul li a
     {
@@ -321,6 +327,7 @@ padding: 0px;
         font-size: 14px;
 
     }
+    
     .tab-section .tab-nav ul li .active
     {
         background: #0087a3;
@@ -330,6 +337,10 @@ padding: 0px;
     .tab-section .tab-nav ul li a::after
     {
         display: none;
+    }
+    .tabul .swiper-slide
+    {
+        width: auto;
     }
     .page-content
     {
