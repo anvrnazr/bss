@@ -314,12 +314,18 @@ padding: 0px;
     }
     .tab-section .tab-nav ul li a
     {
-        padding: 5px 15px;
+        padding: 6px 15px;
         border: 1px solid #ccc;
-        border-radius: 20px;
+        border-radius: 30px;
         margin-left: 10px;;
         font-size: 14px;
 
+    }
+    .tab-section .tab-nav ul li .active
+    {
+        background: #0087a3;
+        color: #fff;
+        border-color: #0087a3;
     }
     .tab-section .tab-nav ul li a::after
     {
