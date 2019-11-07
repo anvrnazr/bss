@@ -994,6 +994,10 @@ section
             }
         }
     }
+    .mob-tab-nav
+    {
+        display: none;
+    }
     .tab-content    
 {
     flex: 5;
@@ -1774,6 +1778,32 @@ margin-bottom: 200px;
 {
     height: 120px;;
     background: #dae3e3;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    select 
+    {
+        border: 0;
+        border-radius: 6px;
+        padding: 10px 20px;
+        font-size: 18px;
+
+    }
+    button 
+    {
+        background: #0087A3;
+        border-radius: 6px;
+        padding: 10px 20px;
+        border: 0;
+        cursor: pointer;
+        color: #fff;
+        font-size: 18px;
+
+
+    }
 }
 .evrbody
 {

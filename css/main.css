@@ -580,6 +580,8 @@ footer {
           font-weight: 600; }
           .tab-section .tab-nav ul li .active::after {
             background: #5cbbd7; }
+  .tab-section .mob-tab-nav {
+    display: none; }
   .tab-section .tab-content {
     flex: 5;
     padding: 0px 2rem; }
@@ -1011,7 +1013,24 @@ footer {
 
 .evrhead {
   height: 120px;
-  background: #dae3e3; }
+  background: #dae3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; }
+  .evrhead select {
+    border: 0;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 18px; }
+  .evrhead button {
+    background: #0087A3;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px; }
 
 .evrbody {
   background: #ebf4f3;

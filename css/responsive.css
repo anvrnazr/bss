@@ -291,6 +291,7 @@ padding: 0px;
 }
 
 @media (max-width: 768px) {
+
     .container
     {
 
@@ -304,44 +305,62 @@ padding: 0px;
     {
         flex-direction: column;
     }
-    .tab-section .tab-nav
+
+    .tab-nav{
+        display: none;
+    }
+    .tab-section .mob-tab-nav
+    {
+        display: block;
+        padding: 20px 0px;
+    }
+    .tab-section .tabswiper
     {
         background: #f2f2f2;
         overflow: hidden;
         
     }
-    .tab-section .tab-nav ul
+    .tab-section .tabswiper ul
     {
         display: flex;
         background: #f2f2f2;
 
     }
-    .tab-section .tab-nav ul    {
+    .tab-section .tabswiper ul    {
         width: 100%;
     }
-    .tab-section .tab-nav ul li a
+    .tab-section .tabswiper ul li   {
+        display: inline-block;
+    }
+    .tab-section .tabswiper ul li a
     {
         padding: 6px 15px;
         border: 1px solid #ccc;
         border-radius: 30px;
-        margin-left: 10px;;
+        /* margin-left: 10px;; */
         font-size: 14px;
+        color: #777;
+
 
     }
     
-    .tab-section .tab-nav ul li .active
+    .tab-section .tabswiper ul li .active
     {
         background: #0087a3;
         color: #fff;
         border-color: #0087a3;
     }
-    .tab-section .tab-nav ul li a::after
+    .tab-section .tabswiper ul li a::after
     {
         display: none;
     }
     .tabul .swiper-slide
     {
         width: auto;
+    }
+    .ab-image .ybg
+    {
+        display: none;
     }
     .page-content
     {

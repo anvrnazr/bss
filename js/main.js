@@ -41,14 +41,19 @@ function openExp(e) {
     }
 
 
+    var swip = new Swiper('.tabswiper', {
+        slidesPerView: 'auto',
+            spaceBetween: 10,
+        freeMode: true,
     
-  var swip = new Swiper('.tab-nav', {
-    slidesPerView: 'auto',
-        // spaceBetween: 30,
-    freeMode: true,
+      });
 
-  });
 
+
+  
+  var x = window.matchMedia("(max-width: 768px)")
+  myFunction(x) // Call listener function at run time
+  x.addListener(myFunction) // Attach listener function on state changes
 
     var menu = document.querySelector('.tabul')
     var ts = document.querySelector('.tab-section')
