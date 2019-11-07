@@ -308,8 +308,41 @@ padding: 0px;
     {
         display: flex;
     }
+    .evroll
+    {
+        width: 100%;
+    }
+    .timeline
+    {
+        margin-left:10%;
 
+    }
+    .timeline .tl-item
+    {
+        margin-bottom: 230px;;
+    }
+    .timeline .tl-item .date
+    {
+        left: 50px;
+        top: -39px;
+        text-align: left;
+    }
+    .timeline .tli2 .tl-body
+    {
+        left: 50px;
+        right: auto;
+
+    }
+    .timeline .tli2 .tl-body h3::after
+    {
+    right: auto;
+    left: -10px
+
+    }
  }
+
+
+
 @media (max-width: 576px) { 
     
     nav ul
