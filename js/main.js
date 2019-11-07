@@ -52,26 +52,23 @@ console.log(tsb);
 
     // console.log(menu.getBoundingClientRect().top);
     
-    window.addEventListener('scroll', function() {
-        if (window.pageYOffset+160 >= menuPosition) {
-            menu.style.position = 'fixed';
-            menu.style.top = '160px';
-            menu.style.bottom = 'auto';
+    // window.addEventListener('scroll', function() {
+    //     if (window.pageYOffset+160 >= menuPosition) {
+    //         menu.style.position = 'fixed';
+    //         menu.style.top = '160px';
+    //         menu.style.bottom = 'auto';
 
-        } else {
-            menu.style.position = 'static';
-            menu.style.top = '';
-        }
-        if (window.pageYOffset+242 >= tsb) {
-            menu.style.position = 'absolute';
-            menu.style.top = 'auto';
-            menu.style.bottom = '0px';
-
-
-
+    //     } else {
+    //         menu.style.position = 'static';
+    //         menu.style.top = '';
+    //     }
+    //     if (window.pageYOffset+242 >= tsb) {
+    //         menu.style.position = 'absolute';
+    //         menu.style.top = 'auto';
+    //         menu.style.bottom = '0px';
             
-            
-        }
+    //     }
+
         // if (window.pageYOffset+100 >= menuPositionB) {
         //     menu.style.position = 'fixed';
         //     menu.style.top = '100px';
