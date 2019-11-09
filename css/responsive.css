@@ -288,6 +288,10 @@ padding: 0px;
  {
      padding-bottom: 50px;;
  }
+ .ab-image .ybg
+ {
+     display: none;
+ }
 }
 
 @media (max-width: 768px) {
@@ -304,6 +308,7 @@ padding: 0px;
     .tab-section
     {
         flex-direction: column;
+        margin-top:  60px;
     }
 
     .tab-nav{
@@ -360,12 +365,9 @@ padding: 0px;
     }
     .tabul .swiper-slide.dummyli
     {
-        width: 100px;;
+        width: 70px;;
     }
-    .ab-image .ybg
-    {
-        display: none;
-    }
+ 
     .page-content
     {
         padding-top: 0;;
@@ -401,6 +403,16 @@ padding: 0px;
     left: -10px
 
     }
+    .mission .missioncol .content .mcol-wrap
+    {
+        padding: 10px;
+    }
+.cs-content
+
+{
+    flex-direction: column;
+    gap: 30px;
+}
  }
 
 
