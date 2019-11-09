@@ -432,6 +432,15 @@ padding: 0px;
 {
 margin-bottom: 50px;;
 }
+.df 
+{
+    flex-direction: column;
+}
+.df .syscol
+{
+    width: 100%;
+
+}
  }
 
 
