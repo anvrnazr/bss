@@ -421,14 +421,14 @@ padding: 0px;
 {
     top: 240px
 }
-.charity-row, .art-row {
+.charity-row, .art-row, .ach-row, .alumni-row {
 
 
     justify-content: center;
     gap: 0px;
 
 }
-.art-row  .article
+.art-row  .article, .charity-row .charity-item, .ach-row .ach-item, .alumni-row .alumni-item
 {
 margin-bottom: 50px;;
 }
