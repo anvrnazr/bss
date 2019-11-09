@@ -425,6 +425,12 @@ padding: 0px;
 
 
     justify-content: center;
+    gap: 0px;
+
+}
+.art-row  .article
+{
+margin-bottom: 50px;;
 }
  }
 
