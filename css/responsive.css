@@ -308,7 +308,6 @@ padding: 0px;
     .tab-section
     {
         flex-direction: column;
-        margin-top:  60px;
     }
 
     .tab-nav{
@@ -366,6 +365,11 @@ padding: 0px;
     .tabul .swiper-slide.dummyli
     {
         width: 70px;;
+    }
+    .tab-content
+    {
+        margin-top:  60px;
+
     }
  
     .page-content
