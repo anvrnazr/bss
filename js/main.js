@@ -43,7 +43,7 @@ function openExp(e) {
 
     var swip = new Swiper('.tabswiper', {
         slidesPerView: 'auto',
-            spaceBetween: 15,
+            spaceBetween: 10,
         freeMode: true,
     
       });
