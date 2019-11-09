@@ -441,6 +441,10 @@ margin-bottom: 50px;;
     width: 100%;
 
 }
+footer::after
+{
+    height: 140px;;
+}
  }
 
 
