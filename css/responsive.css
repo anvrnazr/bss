@@ -441,6 +441,16 @@ margin-bottom: 50px;;
     width: 100%;
 
 }
+
+.faculty-content
+{
+    flex-direction: column;
+}
+.staff-content .staff-pane
+{
+    padding-left: 0px;
+    justify-content: center;
+}
 footer::after
 {
     height: 140px;;
@@ -467,16 +477,3 @@ footer::after
 
 
 
-
-
-
-.sf-menu .td-normal-menu ul li:nth-child(n+10) ul {
-
-    transform: translateY(-70%);
-
-}
-
-.sf-menu .td-normal-menu ul:nth-child(2) {
-
-    width: 25em !important;
-}
