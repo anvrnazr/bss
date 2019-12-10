@@ -938,6 +938,9 @@ footer {
           border-color: #199db8;
           color: #fff; }
 
+.mob-staftab {
+  display: none; }
+
 .staff-content {
   flex: 8; }
   .staff-content .staff-pane {
@@ -1237,5 +1240,59 @@ footer {
       margin-top: 5px;
       margin-bottom: 5px;
       color: #515151; }
+
+.art-container {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.page .art-title {
+  background: #0087a3;
+  color: #fff;
+  padding: 60px 0px;
+  height: auto; }
+
+.page .art-title h1 {
+  padding: 0; }
+
+.art-details {
+  display: flex;
+  justify-content: space-between; }
+  .art-details .left {
+    display: flex;
+    align-items: center; }
+    .art-details .left img {
+      width: 50px;
+      margin-right: 10px; }
+  .art-details .right {
+    display: flex;
+    align-items: center; }
+    .art-details .right img {
+      width: 20px;
+      margin-right: 10px; }
+
+.article-content img {
+  margin: auto;
+  margin-bottom: 30px; }
+
+.art-footer {
+  display: flex;
+  justify-content: space-between; }
+  .art-footer .left {
+    display: flex;
+    align-items: center; }
+    .art-footer .left img {
+      width: 40px;
+      margin: 0;
+      margin-right: 10px; }
+  .art-footer .right {
+    display: flex;
+    align-items: center; }
+    .art-footer .right a {
+      margin-left: 20px;
+      padding: 0px 5px; }
+      .art-footer .right a img {
+        height: 25px; }
 
 /*# sourceMappingURL=main.css.map */
