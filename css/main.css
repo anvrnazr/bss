@@ -84,11 +84,13 @@ nav ul li a {
   line-height: 100px;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 16px;
-  color: #000; }
+  font-size: 15px;
+  color: #777;
+  font-family: bold; }
 
 nav ul li a.active {
-  border-top: 5px solid #0087a3; }
+  border-top: 5px solid #0087a3;
+  color: #0087a3; }
 
 .menubtn {
   width: 80px;
@@ -137,10 +139,13 @@ a.readmore {
     width: 40%;
     padding: 0px 50px; }
     .intro .intro-content h1 {
-      font-size: 45px; }
+      font-size: 45px;
+      color: #515151;
+      font-family: bold; }
     .intro .intro-content p {
-      color: #888;
-      font-size: 18px; }
+      color: #8e8e8e;
+      font-size: 16px;
+      line-height: 26px; }
     .intro .intro-content a {
       background: #0087a3;
       padding: 20px;
@@ -896,14 +901,17 @@ footer {
   margin-bottom: 200px; }
   .con-page .formwrap h2 {
     text-align: center; }
-  .con-page .formwrap input {
+  .con-page .formwrap input, .con-page .formwrap select {
     border: 0;
     padding: 15px 25px;
     margin-bottom: 25px;
     display: block;
     width: 100%; }
+    .con-page .formwrap input option, .con-page .formwrap select option {
+      font-family: regular; }
   .con-page .formwrap textarea {
     border: 0;
+    width: 100%;
     padding: 10px; }
   .con-page .formwrap .con-btn {
     background: #199db8;
