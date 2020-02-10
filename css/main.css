@@ -261,7 +261,8 @@ a.readmore {
     padding: 50px;
     padding-right: 0px;
     font-weight: 300;
-    font-size: 14px; }
+    font-size: 14px;
+    position: relative; }
     .tiles-content .tile-body p {
       line-height: 25px;
       font-size: 14px;
@@ -1321,5 +1322,23 @@ footer {
   margin-bottom: 25px; }
   .alumni-photo-upload input {
     margin: 0 !important; }
+
+.tile-rm {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 100%; }
+  .tile-rm img.svgnxt {
+    position: absolute;
+    height: 30px !important;
+    width: 30px;
+    bottom: 20px;
+    right: 50px;
+    opacity: 0.2;
+    transition: 500ms; }
+  .tile-rm:hover img.svgnxt {
+    transform: translateX(10px);
+    transition: 500ms;
+    opacity: 0.4; }
 
 /*# sourceMappingURL=main.css.map */
