@@ -346,8 +346,15 @@ a.readmore {
   .achievements .ach-content {
     display: flex;
     justify-content: space-between;
-    gap: 20px; }
+    margin-left: -20px;
+    margin-right: -20px;
+
+   }
     .achievements .ach-content .ach {
+      margin : 20px;
+      margin-top: 0;
+      margin-bottom: 40px;
+
       position: relative; }
       .achievements .ach-content .ach img {
         width: 230px; }
@@ -1337,8 +1344,36 @@ footer {
     opacity: 0.2;
     transition: 500ms; }
   .tile-rm:hover img.svgnxt {
-    transform: translateX(10px);
+    transform: translateX(10px) rotateX(180deg);
     transition: 500ms;
     opacity: 0.4; }
 
-/*# sourceMappingURL=main.css.map */
+    .ppupload
+    {
+      display: flex;
+      background: #fff;
+      padding: 10px 25px;
+      height: 48px;
+      align-items: center;
+    }
+    .con-page .formwrap .ppupload label, .con-page .formwrap .ppupload input
+    {
+      padding: 0;
+      min-width: 100px;
+      color: #7f7676;
+      margin: 0;
+    }
+
+    .alumnisubbtn{
+      background:#0087a3;
+padding: 20px;
+display: inline-block;
+text-decoration: none;
+text-transform: uppercase;
+border: 0;
+color:#fff;
+box-shadow: 0px 5px 30px#aaa;
+cursor: pointer;
+display: block;
+margin: auto;
+    }

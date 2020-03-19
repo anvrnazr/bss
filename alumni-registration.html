@@ -62,63 +62,175 @@
             <div class="container">
                 <div class="formwrap">
                     <h2>Alumni Registration Form</h2>
-                        <form action="" id="alumni-registration" class="form-horizontal contact-form-area " method="post" accept-charset="utf-8" style="visibility: visible; animation-name: fadeInUp;">
+                    <form action="http://bssgurukulam.com/home/alumni-registration" id="alumniform" method="post" name="alumniform" enctype="multipart/form-data" accept-charset="utf-8">
+           
+                        <div class="k2AccountPage col-md-12" id="k2Container">
+                           
+                                            <h3>  Personal Details		</h3>	
+                                   
+                                   <div class="row">
+                                   <div class="col-md-4">
+                                           <div class="form-group">
+                                             <div class="req"> <input type="text" placeholder="Name" maxlength="50" class="form-control " value="" size="40" id="alumni_name" name="jform[alumni_name]" aria-required="true" required="required"></div>
+                                           </div></div>
+                                       
+                                            
+                                     
+                                       <div class="col-md-4">
+                                             <div class="form-group">
+                                           <div class="req"><input type="email" placeholder="Email" maxlength="100" class="form-control" value="" size="40" name="jform[alumni_email]" id="alumni_email" aria-required="true" required="required">
+                                         </div>
+                                             </div></div>
+                                           
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                           <div class="req"><input type="text" placeholder="Mobile" maxlength="100" class="form-control" value="" size="40" name="jform[alumni_mobile]" id="alumni_mobile" aria-required="true" required="required">
+                                           </div>
+                                             </div>
+                                            </div>
+                                       
+                                       
+                                       <div class="col-md-4">
+                                             <div class="form-group">
+                                            <input type="url" placeholder="Facebook Id" maxlength="100" value="" size="40" name="jform[alumni_facebookid]" id="alumni_facebookid" aria-required="true" class="form-control">
+                                    </div></div>
+                                          
+                                     <div class="col-md-4">
+                                             <div class="form-group">
+                                            <input type="url" placeholder="Linkedin Id" maxlength="100" value="" size="40" name="jform[alumni_linkedin]" class="form-control" id="alumni_linkedin" aria-required="true">
+            
+                                             </div></div>
+                                            
+                                     <div class="col-md-2">
+                                             <div class="form-group">
+                                             <select name="jform[alumni_batch]" id="alumni_batch" class="form-control" required="required"><option selected disabled> Batch</option><option value="2020"> 2020</option><option value="2019"> 2019</option><option value="2018"> 2018</option><option value="2017"> 2017</option><option value="2016"> 2016</option><option value="2015"> 2015</option><option value="2014"> 2014</option><option value="2013"> 2013</option><option value="2012"> 2012</option><option value="2011"> 2011</option><option value="2010"> 2010</option><option value="2009"> 2009</option><option value="2008"> 2008</option><option value="2007"> 2007</option><option value="2006"> 2006</option><option value="2005"> 2005</option><option value="2004"> 2004</option><option value="2003"> 2003</option><option value="2002"> 2002</option><option value="2001"> 2001</option><option value="2000"> 2000</option><option value="1999"> 1999</option><option value="1998"> 1998</option><option value="1997"> 1997</option><option value="1996"> 1996</option><option value="1995"> 1995</option><option value="1994"> 1994</option><option value="1993"> 1993</option><option value="1992"> 1992</option><option value="1991"> 1991</option><option value="1990"> 1990</option><option value="1989"> 1989</option><option value="1988"> 1988</option><option value="1987"> 1987</option><option value="1986"> 1986</option><option value="1985"> 1985</option><option value="1984"> 1984</option><option value="1983"> 1983</option><option value="1982"> 1982</option><option value="1981"> 1981</option><option value="1980"> 1980</option><option value="1979"> 1979</option><option value="1978"> 1978</option><option value="1977"> 1977</option><option value="1976"> 1976</option><option value="1975"> 1975</option><option value="1974"> 1974</option><option value="1973"> 1973</option><option value="1972"> 1972</option><option value="1971"> 1971</option><option value="1970"> 1970</option><option value="1969"> 1969</option><option value="1968"> 1968</option><option value="1967"> 1967</option><option value="1966"> 1966</option><option value="1965"> 1965</option><option value="1964"> 1964</option><option value="1963"> 1963</option><option value="1962"> 1962</option><option value="1961"> 1961</option><option value="1960"> 1960</option></select>                                 <div class="req"></div>
+                                             </div>
+                                           
+                                       </div><div class="col-md-2">
+                                            <div class="form-group">
+                                            <select name="jform[alumni_class]" id="alumni_class" class="form-control disabld"><option selected disabled> Class </option><option value="15">First Standard</option><option value="16">LKG</option><option value="17">Second Standard</option><option value="18">Third Standard</option><option value="19">Fourth Standard</option><option value="20">Fifth Standard</option><option value="21">Sixth standard</option><option value="22">Seventh Standard</option><option value="23">Eight Standard</option><option value="24">Ninenth Standard</option><option value="25">tenth Standard</option><option value="26">Plus one</option><option value="27">Plus two</option><option value="28">UKG </option><option value="31">Day care</option></select>                                       <div class="req"></div>
+                                             </div>
+                                             </div></div>
+                                             
+                                              <h3>  Address Details		</h3>	
+                                              <div class="row">
+                                                   <div class="col-md-4">
+                                             <div class="form-group">
+                                          <input type="text" placeholder="Address" maxlength="60" class="form-control" value="" size="40" name="jform[alumni_address]" id="alumni_address" aria-required="true">
+                                         </div>
                                         
-                                <div class="row">
-                                        <div class="col-md-6">
-                                         <input type="text" class="form-control" placeholder="Full Name" required="">
-        
-        
-                                        </div>
-                                                
-                                     <div class=" col-md-6">
-                                            <input type="email" class="form-control" placeholder="Email" required>
-                                        </div>
-                                        <div class="col-md-6">
-
-                                         <select name="jform[alumni_batch]" id="alumni_batch" class="form-control" required="required"><option>-Select Batch-</option><option value="2020"> 2020</option><option value="2019"> 2019</option><option value="2018"> 2018</option><option value="2017"> 2017</option><option value="2016"> 2016</option><option value="2015"> 2015</option><option value="2014"> 2014</option><option value="2013"> 2013</option><option value="2012"> 2012</option><option value="2011"> 2011</option><option value="2010"> 2010</option><option value="2009"> 2009</option><option value="2008"> 2008</option><option value="2007"> 2007</option><option value="2006"> 2006</option><option value="2005"> 2005</option><option value="2004"> 2004</option><option value="2003"> 2003</option><option value="2002"> 2002</option><option value="2001"> 2001</option><option value="2000"> 2000</option><option value="1999"> 1999</option><option value="1998"> 1998</option><option value="1997"> 1997</option><option value="1996"> 1996</option><option value="1995"> 1995</option><option value="1994"> 1994</option><option value="1993"> 1993</option><option value="1992"> 1992</option><option value="1991"> 1991</option><option value="1990"> 1990</option><option value="1989"> 1989</option><option value="1988"> 1988</option><option value="1987"> 1987</option><option value="1986"> 1986</option><option value="1985"> 1985</option><option value="1984"> 1984</option><option value="1983"> 1983</option><option value="1982"> 1982</option><option value="1981"> 1981</option><option value="1980"> 1980</option><option value="1979"> 1979</option><option value="1978"> 1978</option><option value="1977"> 1977</option><option value="1976"> 1976</option><option value="1975"> 1975</option><option value="1974"> 1974</option><option value="1973"> 1973</option><option value="1972"> 1972</option><option value="1971"> 1971</option><option value="1970"> 1970</option><option value="1969"> 1969</option><option value="1968"> 1968</option><option value="1967"> 1967</option><option value="1966"> 1966</option><option value="1965"> 1965</option><option value="1964"> 1964</option><option value="1963"> 1963</option><option value="1962"> 1962</option><option value="1961"> 1961</option><option value="1960"> 1960</option></select>
-                                        </div>
-
-        
-
-                                        <div class=" col-md-6">
-
-                                                <select name="jform[alumni_class]" id="alumni_class" class="form-control disabld"><option>-Select Class-</option><option value="15">First Standard</option><option value="16">LKG</option><option value="17">Second Standard</option><option value="18">Third Standard</option><option value="19">Fourth Standard</option><option value="20">Fifth Standard</option><option value="21">Sixth standard</option><option value="22">Seventh Standard</option><option value="23">Eight Standard</option><option value="24">Ninenth Standard</option><option value="25">tenth Standard</option><option value="26">Plus one</option><option value="27">Plus two</option><option value="28">UKG </option><option value="31">Day care</option></select>
+                                                 
+                                             </div>
+                                                   <div class="col-md-4">
+                                             <div class="form-group">
+                                          <input type="text" placeholder="Address1"  maxlength="60" class="form-control" value="" size="40" name="jform[alumni_address1]" id="alumni_address1" aria-required="true">
+                                         
+                                                 
+                                             </div></div>
+                                                 
+                                       <div class="col-md-4">
+                                             <div class="form-group">
+                                          <input type="text" placeholder="City" maxlength="60" class="form-control" value="" size="40" name="jform[alumni_city]" id="alumni_city" aria-required="true">
+                                         
+                                             </div></div> 
+                                                  
+                                                  <div class="col-md-4">
+                                             <div class="form-group">
+                                           <input type="text" placeholder="State" maxlength="60" class="form-control" value="" size="40" name="jform[alumni_state]" id="alumni_state" aria-required="true">
+                                         
+                                             </div></div>
+                                                  
+                                       <div class="col-md-4">
+                                             <div class="form-group">
+                                          <input type="text" placeholder="Pincode" maxlength="60" class="form-control" value="" size="40" name="jform[alumni_pincode]" id="alumni_pincode" aria-required="true">
+                                         
+                                             </div></div>
+                                                  
+                                                  <div class="col-md-4">
+                                             <div class="form-group">
+                                           <input type="text" placeholder="Country" maxlength="60" class="form-control" value="" size="40" name="jform[alumni_country]" id="alumni_country" aria-required="true">
+                                         
+                                             </div></div>
+                                              </div>
+                                              
+                                             
+                                              <h3>  Educational Qualification </h3>	
+                                              <div class="row">
+                                                   <div class="col-md-4">
+                                             <div class="form-group">
+                                          <div class="req"><input type="text" placeholder="Qualification" maxlength="100" class="form-control" value="" size="40" name="jform[alumni_qualification]" id="alumni_qualification" aria-required="true">
+                                         </div>
+                                        </div>  
+                                          </div>
+                                        </div>             
+                                            
+                                              
+                                            
+                                            
+                                       <div class="row">
+                                   <div class="col-md-12">
+                                           <h3>  Job Details	 </h3></div>
+                                            <div class="col-md-4">
+                                            <div class="form-group">
+                                             <input type="text" placeholder="Current Company" id="company" class="form-control" name="jform[current_company]" value="" size="40"></div>
+                                      </div>
+                                            
+            
+                                            <div class="col-md-5">
+                                             <div class="form-group joined">
+                                             <div class="row"><div class="col-md-6"><select name="jform[company_joined_mon]" class="form-control">
+                                                <option value="" selected disabled>Joined Month</option>
+                                                <option value="jan">JAN</option>
+                                                <option value="feb">FEB</option>
+                                                <option value="mar">MAR</option>
+                                                <option value="apr">APR</option>
+                                                <option value="may">MAY</option>
+                                                <option value="jun">JUN</option>
+                                                <option value="jul">JUL</option>
+                                                <option value="aug">AUG</option>
+                                                <option value="sep">SEP</option>
+                                                <option value="oct">OCT</option>
+                                                <option value="nov">NOV</option>
+                                                <option value="dec">DEC</option>
+                                            </select>     </div><div class="col-md-6">                            <select name="jform[compamy_joined_year]" id="compamy_joined_year" class="form-control"><option selected disabled>Joined Year</option><option value="2020"> 2020</option><option value="2019"> 2019</option><option value="2018"> 2018</option><option value="2017"> 2017</option><option value="2016"> 2016</option><option value="2015"> 2015</option><option value="2014"> 2014</option><option value="2013"> 2013</option><option value="2012"> 2012</option><option value="2011"> 2011</option><option value="2010"> 2010</option><option value="2009"> 2009</option><option value="2008"> 2008</option><option value="2007"> 2007</option><option value="2006"> 2006</option><option value="2005"> 2005</option><option value="2004"> 2004</option><option value="2003"> 2003</option><option value="2002"> 2002</option><option value="2001"> 2001</option><option value="2000"> 2000</option><option value="1999"> 1999</option><option value="1998"> 1998</option><option value="1997"> 1997</option><option value="1996"> 1996</option><option value="1995"> 1995</option><option value="1994"> 1994</option><option value="1993"> 1993</option><option value="1992"> 1992</option><option value="1991"> 1991</option><option value="1990"> 1990</option><option value="1989"> 1989</option><option value="1988"> 1988</option><option value="1987"> 1987</option><option value="1986"> 1986</option><option value="1985"> 1985</option><option value="1984"> 1984</option><option value="1983"> 1983</option><option value="1982"> 1982</option><option value="1981"> 1981</option><option value="1980"> 1980</option><option value="1979"> 1979</option><option value="1978"> 1978</option><option value="1977"> 1977</option><option value="1976"> 1976</option><option value="1975"> 1975</option><option value="1974"> 1974</option><option value="1973"> 1973</option><option value="1972"> 1972</option><option value="1971"> 1971</option><option value="1970"> 1970</option><option value="1969"> 1969</option><option value="1968"> 1968</option><option value="1967"> 1967</option><option value="1966"> 1966</option><option value="1965"> 1965</option><option value="1964"> 1964</option><option value="1963"> 1963</option><option value="1962"> 1962</option><option value="1961"> 1961</option><option value="1960"> 1960</option></select></div></div></div>
+                                           </div>
+                                       
+                                            
+            
+                                         <div class="col-md-3">
+                                              <div class="form-group">
+                                                <input type="text" placeholder="Position" id="company_position" class="form-control" name="jform[company_position]" value="" size="40">
+                                             </div>
                                             </div>
-                                            <div class="col-md-6">
+                                         <div class="col-md-4">
+                                             <div class="form-group">
+                                        
+                                                            <input type="text" placeholder="City" id="company_city" class="form-control" name="jform[company_city]" value="" size="40">
+            </div>
+                                           </div>    <div class="col-md-8">
+                                        
+                                             <div class="form-group">
+                                                 <div class="ppupload">
+                                                    <label for="image" id="imagemsg">User image </label><input type="file" name="file_name" id="file_name">
 
+                                                 </div>
+                                             </div>
                                             </div>
-                                            <input type="url" maxlength="100" value="" size="40" name="jform[alumni_facebookid]" id="alumni_facebookid" aria-required="true" class="form-control">
-                                            <div class="col-md-6">
-                                                
-                                            </div>
-                                            <div class="col-md-6">
-                                                
+                                                <div class="col-md-12">
+                                      
+                            <div class="k2AccountPageNotice"><small> Fields marked with an asterisk (*) are required.</small></div>
+                            <div class="k2AccountPageNotice"><small>Any Updation/Changes for alumni profile please contact - bssgurukulam.12@gmail.com</small></div>
+                            <div class="k2AccountPageUpdate" style="margin-bottom: 68px;"><br><br>
+                                <button type="submit" class="btn btn-primary alumnisubbtn">
+                                    Register			
+                                </button>
+                                <div id="errMsg" title="Error Box"></div>
+                                <div id="notifMsg" title="Notification"></div>
+                            </div>
                                                 </div>
-                                                <div class="col-md-6">
-                                                
-                                                    </div>
-                                                      
-                                        <!-- <label for=""> Comments</label>
-                                         <textarea type="text" class="form-control" placeholder="Comments" > </textarea> -->
-
-        
-                                                                                 </div>
-                                                                                 <div class="col-md-6">
-                                                                                     <div class="alumni-photo-upload">
-                                                                                        <span>
-                                                                                                Upload Profile Photo
-
-                                                                                        </span>
-                                                                                    <input type="file" name="fileToUpload" id="fileToUpload">
-                                                                                 </div>
-                                                                                </div>
-
-                                 </div>
-        
-                                 <button type="submit" class="btn btn-primary con-btn mt-30">Register</button>
-        
-                             </form>
+                            </div>
+                        </div>
+                        </form>
                 </div>
 
                     </div>
