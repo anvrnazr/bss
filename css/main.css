@@ -369,10 +369,12 @@ a.readmore {
 .articles .articles-content {
   display: flex;
   justify-content: space-between;
-  gap: 30px; }
+   }
 
 .article {
-  box-shadow: 0px 0px 20px #ccc; }
+  box-shadow: 0px 0px 20px #ccc;
+  margin-right: 30px;
+  margin-bottom: 30px; }
   .article .article-img {
     width: 300px; }
   .article .article-body {
@@ -524,9 +526,10 @@ footer {
 
 .footer-content {
   display: flex;
-  gap: 60px;
+
   margin-bottom: 80px; }
   .footer-content .footer-column {
+    margin-right: 60px;
     flex: 1; }
     .footer-content .footer-column p {
       line-height: 26px; }
@@ -614,9 +617,12 @@ footer {
 
 .page-row {
   display: flex;
-  gap: 30px; }
+  /* gap: 30px; */
+}
   .page-row .page-column {
-    flex: 1; }
+    margin-right: 30px;
+    margin-bottom: 30px;
+        flex: 1; }
 
 .school .column1 {
   font-size: 17px;
@@ -717,11 +723,13 @@ footer {
 .syscol.full {
   display: flex;
   width: 100%;
-  gap: 50px;
+  /* gap: 50px; */
   padding: 0px;
   padding-bottom: 50PX; }
 
 .syscol.full > div {
+  margin-right: 50px;
+  margin-bottom: 50px;
   flex: 1; }
   .syscol.full > div img {
     max-width: 100%;
@@ -731,9 +739,13 @@ footer {
   background: #ebf3f3;
   padding: 50px 0px; }
   .sys2 .page-row {
-    gap: 60px; }
+    /* gap: 60px;  */
+  }
   .sys2 .page-column {
-    flex: 4; }
+    flex: 4; 
+    margin-right: 60px;
+    margin-bottom: 60px;
+  }
   .sys2 .c11 {
     flex: 1; }
 
@@ -767,11 +779,13 @@ footer {
     flex: 10; }
 
 .df {
-  gap: 50px;
+  /* gap: 50px; */
   display: flex;
   flex-wrap: wrap;
   width: 100%; }
   .df .syscol {
+    margin-right: 50px;
+    margin-bottom: 50px;
     flex: auto;
     width: 45%; }
 
@@ -963,8 +977,11 @@ footer {
     display: none;
     flex-wrap: wrap;
     padding-left: 100px;
-    gap: 50px; }
+    /* gap: 50px; */
+   }
   .staff-content .staff-pane.active {
+    margin-right: 50px;
+    margin-bottom: 50px;
     display: flex; }
   .staff-content .staff {
     width: 350px;
@@ -1016,8 +1033,11 @@ footer {
 .charity-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 60px; }
+  /* gap: 60px;  */
+}
   .charity-row .charity-item {
+    margin-right: 60px;
+    margin-bottom: 60px;
     width: 270px;
     border: 1px solid #cccccc; }
     .charity-row .charity-item img {
@@ -1047,7 +1067,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px; }
+  gap: 20px; 
+}
   .evrhead select {
     border: 0;
     border-radius: 6px;
@@ -1144,7 +1165,12 @@ footer {
 .art-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 60px; }
+  /* gap: 60px;  */
+}
+.art-row .article{
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
   .art-row .article .article-footer {
     align-items: center; }
   .art-row .article .article-footer > a {
@@ -1163,10 +1189,14 @@ footer {
 .ach-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 60px; }
+  /* gap: 60px;  */
+}
   .ach-row .ach-item {
     border: 1px solid #cccccc;
-    width: 270px; }
+    width: 270px; 
+    margin-right: 60px;
+    margin-bottom: 60px;
+  }
     .ach-row .ach-item img {
       width: 100%; }
     .ach-row .ach-item h3 {
@@ -1187,8 +1217,11 @@ footer {
 .alumni-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 100px; }
+  /* gap: 100px;  */
+}
   .alumni-row .alumni-item {
+    margin-bottom: 100px;
+    margin-right: 100px;
     border-radius: 5px;
     overflow: hidden;
     width: 182px;
@@ -1213,8 +1246,11 @@ footer {
 
 .cs-content {
   display: flex;
-  gap: 50px; }
+  /* gap: 50px; */
+ }
   .cs-content div {
+    margin-bottom: 50px;
+    margin-right: 50px;
     flex: 1; }
   .cs-content .cs-img img {
     max-width: 100%; }
